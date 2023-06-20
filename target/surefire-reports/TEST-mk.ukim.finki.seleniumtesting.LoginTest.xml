@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="6" failures="1" name="mk.ukim.finki.seleniumtesting.LoginTest" time="1.728" errors="0" skipped="5">
+  <properties>
+    <property name="idea.version" value="2023.1.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.7+7-b966.2"/>
+    <property name="sun.boot.library.path" value="/home/roskee/.jdks/jbr-17.0.7/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/roskee/Desktop/sample-selenium"/>
+    <property name="java.vm.vendor" value="JetBrains s.r.o."/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/roskee/Desktop/sample-selenium"/>
+    <property name="jbr.virtualization.information" value="No virtualization detected"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.7+7-b966.2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="maven.ext.class.path" value="/home/roskee/.local/share/JetBrains/Toolbox/apps/IDEA-U/ch-0/231.9011.34/plugins/maven/lib/maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="/home/roskee/.local/share/JetBrains/Toolbox/apps/IDEA-U/ch-0/231.9011.34/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="maven.conf" value="/home/roskee/.local/share/JetBrains/Toolbox/apps/IDEA-U/ch-0/231.9011.34/plugins/maven/lib/maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="5.19.0-43-generic"/>
+    <property name="user.home" value="/home/roskee"/>
+    <property name="user.timezone" value="Africa/Addis_Ababa"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="roskee"/>
+    <property name="java.class.path" value="/home/roskee/.local/share/JetBrains/Toolbox/apps/IDEA-U/ch-0/231.9011.34/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar:/home/roskee/.local/share/JetBrains/Toolbox/apps/IDEA-U/ch-0/231.9011.34/plugins/maven/lib/maven3/boot/plexus-classworlds.license"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2023.1.2 test"/>
+    <property name="java.home" value="/home/roskee/.jdks/jbr-17.0.7"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="17.0.7"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.vendor" value="JetBrains s.r.o."/>
+    <property name="maven.home" value="/home/roskee/.local/share/JetBrains/Toolbox/apps/IDEA-U/ch-0/231.9011.34/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="JBR-17.0.7+7-966.2-nomod"/>
+  </properties>
+  <testcase classname="mk.ukim.finki.seleniumtesting.LoginTest" name="setup" time="0.281">
+    <failure message="The driver executable does not exist: /home/roskee/Desktop/sample-selenium/C:\Users\hero\Desktop\SeleniumAutomaticTesting\src\main\resources\drivers\chromedriver.exe" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /home/roskee/Desktop/sample-selenium/C:\Users\hero\Desktop\SeleniumAutomaticTesting\src\main\resources\drivers\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at mk.ukim.finki.seleniumtesting.LoginTest.getDriver(LoginTest.java:61)
+	at mk.ukim.finki.seleniumtesting.LoginTest.setup(LoginTest.java:17)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@4cf777e8
+</system-out>
+  </testcase>
+  <testcase classname="mk.ukim.finki.seleniumtesting.LoginTest" name="canNotLoginWithInvalidPassword" time="0.288">
+    <skipped/>
+  </testcase>
+  <testcase classname="mk.ukim.finki.seleniumtesting.LoginTest" name="canNotLoginWithoutUserName" time="0.289">
+    <skipped/>
+  </testcase>
+  <testcase classname="mk.ukim.finki.seleniumtesting.LoginTest" name="shouldLogin" time="0.289">
+    <skipped/>
+  </testcase>
+  <testcase classname="mk.ukim.finki.seleniumtesting.LoginTest" name="shouldOpen" time="0.29">
+    <skipped/>
+  </testcase>
+  <testcase classname="mk.ukim.finki.seleniumtesting.LoginTest" name="teardown" time="0.291">
+    <skipped/>
+  </testcase>
+</testsuite>

@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: mk.ukim.finki.seleniumtesting.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 0.41 sec <<< FAILURE!
+setup(mk.ukim.finki.seleniumtesting.LoginTest)  Time elapsed: 0.281 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /home/roskee/Desktop/sample-selenium/C:\Users\hero\Desktop\SeleniumAutomaticTesting\src\main\resources\drivers\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at mk.ukim.finki.seleniumtesting.LoginTest.getDriver(LoginTest.java:61)
+	at mk.ukim.finki.seleniumtesting.LoginTest.setup(LoginTest.java:17)
+
